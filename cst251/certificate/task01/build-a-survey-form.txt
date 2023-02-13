@@ -1,0 +1,188 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Title</title>
+	 <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1 id="title">
+     Entertainment Survey 
+  </h1> 
+  <p id="description"> 
+   This survey is to let us know the types of media and the genre people are insterested in.
+  </p>
+	
+  <form id="survey-form"> 
+      Name:
+		<label id="name-label" alt>
+      <input type="text" id="name" required placeholder="Please enter your name"> 
+		</label>
+		
+	<br>
+		
+      Email: 
+		<label id="email-label" alt>
+      <input type="email" id="email" required placeholder="Enter your email">
+		</label>
+		
+	<br>
+		
+			Age: 
+		<label id="number-label" alt>
+			<input type="number" id="number" min="1" max="60" placeholder="Enter your age">
+		</label>
+		
+<br>
+		
+		What is your favorite movie genre?
+		<select id="dropdown">
+			<option> Select One </option>
+			<option> Action </option>
+			<option> Adventure </option>
+			<option> Comedy </option>
+			<option> Crime and Mystery </option>
+			<option> Fantasy </option>
+			<option> Historical </option>
+			<option> Horror </option>
+			<option> Romance </option>
+			<option> Science Fiction </option>
+			<option> Thriller </option>
+		</select>
+		
+<br>
+
+		Do you like reading? <br>
+	<label> 
+		<input type="radio" name="reading" value="Y"> Yes
+	</label>	
+
+	<label> 
+		<input type="radio" name="reading" value="N"> No
+	</label>
+
+	<br>
+
+		If you answered "Yes", which genres do you read?
+	<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Drama"> Drama
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Fable"> Fable
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Fairy Tale"> Fairy Tale
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Fantasy"> Fantasy
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Fiction"> Fiction 
+		</label>
+		
+	
+		<label> 
+			<input type="checkbox" name="genre" value="Folklore"> Folklore
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Historical Fiction"> Historical Fiction
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Horror"> Horror
+		</label>
+		
+		<label> 
+			<input type="checkbox" name="genre" value="Humor"> Humor
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Mystery"> Mystery
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Mythology"> Mythology
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Poetry"> Poetry
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Realistic Fiction"> Realistic Fiction 
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Science Fiction"> Sci-Fi
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Short Stories"> Short Stories
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Tall Tale"> Tall Tale
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Biography"> Biography
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Autobiography"> Autobiography
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Essay"> Essay
+		</label>
+
+		<label> 
+			<input type="checkbox" name="genre" value="Nonfiction"> Nonfiction
+		</label>
+
+<br> <br> 
+	Comments:
+<br>
+
+<textarea name="comments"> </textarea>
+
+
+<br>
+
+<button name="submit" id="submit"> Submit </button>
+
+
+
+
+		
+  </form>
+
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  color:pink;
+  background-color: #234f;
+}
+
+
+
+** end of undefined **
+
