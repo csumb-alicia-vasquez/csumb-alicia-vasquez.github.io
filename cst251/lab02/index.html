@@ -1,61 +1,182 @@
+<!DOCTYPE html>
+<html>
 
-  <title> Cherry Blossom Facts </title>
-  <style> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Survey</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.typekit.net/kfg3ojp.css">
+	
+</head>
+	<body>
+		<h1 id="title">
+     Entertainment Survey 
+  	</h1> 
+  	<p id="description"> 
+   This survey is to let us know the types of media and the genre people are insterested in.
+  	</p>
+	
+  	<form id="survey-form"> 
+			<fieldset> 
+				<legend>  Personal Infromation </legend>
+      Name:
+			<label id="name-label" alt>
+      	<input type="text" id="name" required placeholder="Please enter your name"> 
+			</label>
+	<br>
+		
+      Email: 
+		<label id="email-label" alt>
+      <input type="email" id="email" required placeholder="Enter your email">
+		</label>
+		
+	<br>
+		
+			Age: 
+		<label id="number-label" alt>
+			<input type="number" id="number" min="1" max="60" placeholder="Enter your age">
+		</label>
+	</fieldset>
+<br>
+		
+		What is your favorite movie genre?
+		<select id="dropdown">
+			<option> Select One </option>
+			<option> Action </option>
+			<option> Adventure </option>
+			<option> Comedy </option>
+			<option> Crime and Mystery </option>
+			<option> Fantasy </option>
+			<option> Historical </option>
+			<option> Horror </option>
+			<option> Romance </option>
+			<option> Science Fiction </option>
+			<option> Thriller </option>
+		</select>
+		
+<br>
 
-      /* CSS Rules */
+		Do you like reading? <br>
+	<label> 
+		<input type="radio" name="reading" value="Y"> Yes
+	</label>	
 
-      h1 {
-        color: hotpink;
-        background-color: lightgray;
-      }
+	<label> 
+		<input type="radio" name="reading" value="N"> No
+	</label>
 
-  </style> 
+	<br>
 
-<h2>Blossom with knowledge</h2>
-   <p>Look at this!</p>
-   <img src="landscape.jpg" + width=200> <br>
-   <label> It's so pretty!</label>
-   <h3>Click <a href="https://www.google.com/search?q=cherry+blossoms&rlz=1C5CHFA_enUS860US860&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiw1d_lsvj8AhX2JTQIHVwyAzMQ_AUoAXoECAEQAw&biw=1200&bih=618&dpr=1"> here </a> to view more Cherry Blossoms.</h3>
-   <h4>Cherry Blossoms grow:</h4>
-   <ul>
-      <li>In Japan.</li>
-      <li>In my backyard.</li>
-      <li>Slowly, oftentimes.</li>
-  </ul>
-  <figure>
-      <img src="tree.jpg" + width=200>
-      <figcaption> So pretty! </figcaption>
-  </figure>
-   <h3>Why you should love Cherry Blossom trees</h4>
-   <ol>
-      <li>They are the <strong>best</strong>.</li>
-      <li>They are pink.</li>
-      <li>I like them.</li>
-   </ol>
-  <figure>
-    <img src="flower.jpg" + width=200>
-   <footer>
-     <EM> <strong>Stunning!!</strong></EM>
-    </footer>
-    <strong><em>Mesmerizing!!</em> </strong>
-  </figure>
-  <fieldset>
-  <legend> Do you like cherry blossoms? </legend>
-    <input type="checkbox"  name="answer" > Yes <br>
-    <input type="checkbox" name="answer2"> No <br>
-</fieldset>
-<fieldset>
-  <legend> Have you ever seen a japanese cherry tree? </legend>
-    <input type="radio"  name="answer" > Yes <br>
-    <input type="radio" name="answer"> No <br>
-    <input type="radio"  name="answer" > I don't know <br>
-</fieldset>
-  <fieldset>
-  <legend> How do cherry blossoms make you feel? </legend>
-    <input type="checkbox"  name="answer" > Good  <br>
-    <input type="checkbox"  name="answer" > Bad <br>
-</fieldset>
-  <form action="cherry">
-    <br>
-    Share your favorite tree with us! <input type="textbox" name="treefav" placeholder="Enter URL">
-  <button> Submit </button>
+		If you answered "Yes", which genres do you read?
+	<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Drama"> Drama
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Fable"> Fable
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Fairy Tale"> Fairy Tale
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Fantasy"> Fantasy
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Fiction"> Fiction 
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Folklore"> Folklore
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Historical Fiction"> Historical Fiction
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Horror"> Horror
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Humor"> Humor
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Mystery"> Mystery
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Mythology"> Mythology
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Poetry"> Poetry
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Realistic Fiction"> Realistic Fiction 
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Science Fiction"> Sci-Fi
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Short Stories"> Short Stories
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Tall Tale"> Tall Tale
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Biography"> Biography
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Autobiography"> Autobiography
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Essay"> Essay
+		</label>
+			<br>
+		<label> 
+			<input type="checkbox" name="genre" value="Nonfiction"> Nonfiction
+		</label>
+
+<br> <br> 
+	Comments:
+<br>
+
+<textarea name="comments"> </textarea>
+
+
+<br>
+
+<button name="submit" id="submit"> Submit </button>
+
+
+
+
+		
+  </form>
+
+
+
+
+
+
+
+
+		<footer>
+			<p> Vasquez 2023 </p>
+		</footer>
+	
+	</body>
+</html>
