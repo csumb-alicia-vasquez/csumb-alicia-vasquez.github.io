@@ -1,0 +1,210 @@
+body {
+	/* centers all content */
+	text-align: center;
+  }
+
+header {
+  width:100%;
+	height:100px;
+  position:fixed;
+  top:0px;
+  border:3px solid yellow;
+  background-color: lightskyblue;
+  font-family: cursive, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5rem;
+	text-align: center;
+	
+}
+
+figure {
+	display: table;
+}
+
+figcaption {
+	display: table-caption;
+	caption-side: top;
+}
+    
+main {
+  margin-top:100px;
+}
+
+#spring {
+position: sticky;
+top: 105px;
+font-family: "marshmallow-fluff", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+background-color: lightgreen;
+color: white;
+border: 3px solid pink;
+border-radius: 30px;
+}
+
+#summer {
+	position: sticky;
+	top: 105px;
+	font-family: "marshmallow-fluff", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3rem;
+	background-color: deepskyblue;
+	color: white;
+	border-radius: 30px;
+	border:3px solid orange;
+  
+	
+}
+
+#fall {
+position: sticky;
+top: 105px;
+font-family: "marshmallow-fluff", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+background-color: orange;
+color: white;
+border-radius: 30px;
+border: 3px solid black;
+}
+
+#winter {
+position: sticky;
+top: 105px;
+font-family: "marshmallow-fluff", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+background-color: mediumpurple;
+color: white;
+border-radius: 30px;
+border: 3px solid rebeccapurple;
+}
+
+main figure {
+	/* allows the image to be resized with the browser */
+   width:50%;
+   margin:0 auto;
+   z-index: -1;
+}
+    
+
+
+#spring-img:active {
+
+  border: 15px solid pink;
+  border-radius: 15px;
+}
+
+#summer-img:active {
+
+  border: 15px solid yellow;
+  border-radius: 15px;
+}
+
+#fall-img:active {
+
+  border: 15px solid brown;
+  border-radius: 15px;
+}
+
+#winter-img:active {
+
+  border: 15px solid cornflowerblue;
+  border-radius: 15px;
+}
+
+#spring-link:hover {
+
+  color: pink;
+}
+
+#spring-link:active {
+
+  color: hotpink;
+  font-weight: bold;
+}
+
+#spring-link:visited {
+
+  color: blueviolet;
+}
+
+#summer-link:hover {
+
+  color: yellow;
+}
+
+#summer-link:active {
+
+  color: orange;
+  font-weight: bold;
+}
+
+#summer-link:visited {
+
+  color: red;
+}
+
+#fall-link:hover {
+
+  color: rosybrown;
+}
+
+#fall-link:active {
+
+  color: indianred;
+  font-weight: bold;
+}
+
+#fall-link:visited {
+
+  color: saddlebrown;
+}
+
+#winter-link:hover {
+
+  color: cornflowerblue;
+}
+
+#winter-link:active {
+
+  color: white;
+  background-color: cornflowerblue;
+  font-weight: bold;
+}
+
+#winter-link:visited {
+
+  color: powderblue;
+}
+
+#last-names {
+
+  background-color: teal;
+  color: white;
+  padding: 5px;
+}
+
+#micah:hover {
+
+  background-color: black;
+  font-weight: bold;
+}
+
+#alicia:hover {
+
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+#paige:hover {
+
+  background-color: black;
+  font-weight: bold;
+}
